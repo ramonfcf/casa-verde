@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="assets/css/componentes/cartao.css">
     <link rel="stylesheet" href="assets/css/componentes/item.css">
     <link rel="stylesheet" href="assets/css/como-conseguir.css">
+    <link rel="stylesheet" href="assets/css/componentes/produto.css">
+    <link rel="stylesheet" href="assets/css/ofertas.css">
+    <link rel="stylesheet" href="assets/css/componentes/video.css">
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
-
 </head>
 <body>
     <header class="container cabecalho">
@@ -24,14 +26,12 @@
             <img src="assets/img/icones/carrinho.svg" alt="Ícone do Carrinho de Compras" class="cabecalho__carrinho">
         </a>
     </header>
-
     <main>
         <section class="chamada container">
-            <h2 class="titulo">
+            <h2 class="titulo alinhamento--meio">
                 Sua Casa com as
                 <span class="titulo--destaque">melhores plantas</span>
             </h2>
-            
             <p class="texto chamada__texto">
                 Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo
                 uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail
@@ -44,12 +44,10 @@
                 <button class="botao">Assinar Newsletter</button>
             </form>
         </section>
-
         <article class="cartao como-conseguir">
             <h2 class="titulo alinhamento--meio">Como conseguir
                 <span class="titulo--destaque">minha planta</span>
             </h2>
-
             <ul class="lista-item">
                 <li class="item">
                     <span class="item__icone item__icone--cursor"></span>
@@ -65,9 +63,91 @@
                 </li>
             </ul>
         </article>
-
+        <section class="ofertas container">
+            <h2 class="titulo alinhamento--meio">
+                Conheça nossos
+                <span class="titulo--destaque">produtos</span>
+            </h2>
+            <ul>
+                <li class="produto">
+                    <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a1 class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a1>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/img/produto-02.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Delairea odorata</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a2 class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a2>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/img/produto-03.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Cordyline fruticosa</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a3 class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a3>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/img/produto-04.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Crassula ovata</h3>
+                        <p class="produto__preco">R$20,00</p>
+                        <a4 class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a4>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/img/produto-05.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Cyperus rotundus</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a5 class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a5>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/img/produto-06.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Datura metel</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a6 class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a6>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="container">
+            <h2 class="titulo alinhamento--meio">
+                Veja aqui nossos
+                <span class="titulo--destaque">vídeos</span>
+            </h2>
+            <ul>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em fevereiro de 2022</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em fevereiro de 2022</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em fevereiro de 2022</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em fevereiro de 2022</p>
+                </li>
+            </ul>
+        </section>
     </main>
-
     <footer class="container rodape">
         <img src="assets/img/logo.svg" alt="Logo da Casa Verde" class="rodape__logo">
         <ul class="rodape__social">
@@ -88,6 +168,5 @@
             Telefone: (11) 99875-2201
         </address>
     </footer>
-    
 </body>
 </html>
